@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Formulir Registrasi</title>
+        <h1 style="text-align: center; "> Registrasi Mahasiswa STT NF</h1>
+    </head>
+    <br><br><br>
+    
+    <body>
+        <style>
+            body{background-color: lightsteelblue;}
+        </style>
+<div>
+<form action="Berhasil_disimpan.html">
+    <table style="text-align: left;">
+        <thead>
+            <tr>
+                <th width="120">Nama</th>
+                <td width="10">:</td>
+                <td>
+                    <label for="Nama"></label>
+                    <input type="text" id="Nama" size="42">
+                </td>
+            </tr>
+            <tr>
+                <th>NIM</th>
+                <td>:</td>
+                <td>
+                    <label for="NIM"></label>
+                    <input type="number" id="NIM" size="42">
+                </td>
+            </tr>
+            <tr>
+                <th>Jurusan</th>
+                <td>:</td>
+                <td>
+                    <input type="radio" id="SI Reguler" name="Jurusan"><label for="Sistem Informasi">SI Reguler</label>
+                    <input type="radio" id="SI Weekend" name="Jurusan"><label for="Sistem Informasi">SI Weekend</label>
+                </td>
+            </tr>
+            <tr>
+                <th></th>
+                <td></td>
+                <td>
+                    <input type="radio" id="TI Reguler" name="Jurusan"><label for="Teknologi informatika">TI Reguler</label>
+                    <input type="radio" id="TI Weekend" name="Jurusan"><label for="Teknologi informatika">TI Weekend</label>
+                </td>
+            </tr>
+            <tr>
+                <th>Kelas</th>
+                <td>:</td>
+                <td>
+                    <select name="Kelas" id="Kelas">
+                        <option value="SI 01">SI 01</option>
+                        <option value="SI 02">SI 02</option>
+                        <option value="SI 03">SI 03</option>
+                        <option value="SI 04">SI 04</option>
+                        <option value="SI 05">SI 05</option>
+                        <option value="SI 06">SI 06</option>
+                        <option value="TI 01">TI 01</option>
+                        <option value="TI 02">TI 02</option>
+                        <option value="TI 03">TI 03</option>
+                        <option value="TI 04">TI 04</option>
+                        <option value="TI 05">TI 05</option>
+                        <option value="TI 06">TI 06</option>
+                        <option value="TI 07">TI 07</option>
+                        <option value="TI 08">TI 08</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Foto Kartu Mahasiswa</th>
+                <td>:</td>
+                <td>
+                    <label for="Foto Kartu Mahasiswa"></label>
+                    <input type="file" id="Foto Kartu Mahasiswa" size="42">
+                </td>
+            </tr>
+            <tr>
+                <th>Tanggal Lahir</th>
+                <td>:</td>
+                <td>
+                    <label for="Tanggal Lahir"></label>
+                    <input type="date" id="Tanggal Lahir">
+                </td>
+            </tr>
+            <tr>
+                <th>Alamat Email</th>
+                <td>:</td>
+                <td>
+                    <label for="Alamat Email"></label>
+                    <input type="email" id="Alamat Email" size="42">
+                </td>
+            </tr>
+            <tr>
+                <th>Password</th>
+                <td>:</td>
+                <td>
+                    <label for="Password"></label>
+                    <input type="password" name="" id="Password" size="42">
+                </td>
+            </tr>
+            <tr>
+                <th>Nomor HP</th>
+                <td>:</td>
+                <td>
+                    <label for="Nomor HP"></label>
+                    <input type="number" id="Nomor HP" size="42">
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Organisasi</th>
+                <td>:</td>
+                <td>
+                    <input type="checkbox" name="" id="Senada"><label for="Senada">Senada</label>
+                    <input type="checkbox" name="" id="Gen Qur'an"><label for="Gen Qur'an">Gen Qur'an</label>
+                    <input type="checkbox" name="" id="Mentoring"><label for="Mentoring">Mentoring</label>
+                    <input type="checkbox" name="" id="BEM"><label for="BEM">BEM</label>
+                </td>
+            </tr>
+            <tr>
+                <th></th>
+                <td></td>
+                <td>
+                    <input type="checkbox" name="" id="DPM"><label for="DPM">DPM</label>
+                    <input type="checkbox" name="" id="DSC"><label for="DSC">DSC</label>
+                    <input type="checkbox" name="" id="Nets"><label for="Nets">Nets</label>
+                    <input type="checkbox" name="" id="Robotik"><label for="Robotik">Robotik</label>
+                    <input type="checkbox" name="" id="Hulf Prize"><label for="Hulf Prize">Hulf Prize</label>
+                </td>
+            </tr>
+            <tr>
+                <th>Deskripsi Diri Anda</th>
+                <td>:</td>
+                <td>
+                    <textarea name="" id="Deskripsi" cols="40" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <th></th>
+                <td></td>
+                <td>
+                    <input type="submit" value="Simpan" style="background-color: lime;">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</form>
+</div>
+
+</body>
+</html>
